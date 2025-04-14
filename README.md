@@ -68,7 +68,7 @@ Sensitive data is protected using industry-standard encryption:
 
 ```mermaid
 graph TD
-    A[IoT Devices] -->|Encrypted Data| K[AI  SERVER]
+    A[ Devices] -->|Encrypted Data| K[AI  SERVER]
     K[AI  SERVER] -->|Encrypted Data| B[ Webhook Endpoints ]
     B -->|HMAC Verification| C[Webhook Controller]
     C -->|Decryption| D[Service Layer]

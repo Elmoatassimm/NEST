@@ -3,10 +3,11 @@
 ## Introduction
 
 System to environmental monitoring, and security in smart building environments. The system provides real-time monitoring, and implements AI-driven decision making for automated responses to environmental changes.
-## Demo
 
-![NEST System Demo](./record.mkv)
+
 ![Hardware](./hardware.jpg)
+
+
 
 
 ## System Architecture
@@ -187,5 +188,17 @@ For enhanced security, webhook payloads can be encrypted:
 1. Set `encrypted: true` in the request payload
 2. Encrypt the data using AES-256-CBC with a shared encryption key
 3. Base64 encode the encrypted data
+
+ ## Dashboard Screenshots
+ ![Dashboard Overview](./screenshots/1.png)
+  ![Dashboard Overview](./screenshots/2.png)
+   ![Dashboard Overview](./screenshots/3.png)
+    ![Dashboard Overview](./screenshots/4.png)
+     ![Dashboard Overview](./screenshots/5.png)
+      ![Dashboard Overview](./screenshots/6.png) 
+      ![Dashboard Overview](./screenshots/7.png)
+
+
+
 
 
